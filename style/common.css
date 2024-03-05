@@ -12,9 +12,9 @@ hr { display: none; }
 @font-face {
     font-family: 'segoe';
     src: local(※),
-        url(/webfont/segoeui.ttf) format('truetype'),
-        url(/webfont/segoeui.eot?#iefix) format('embedded-opentype'),
-        url(/webfont/segoeui.woff) format('woff');
+        url(/test1/webfont/segoeui.ttf) format('truetype'),
+        url(/test1/webfont/segoeui.eot?#iefix) format('embedded-opentype'),
+        url(/test1/webfont/segoeui.woff) format('woff');
 }
 body { min-width: 1200px;  font-family: 'segoe'; }
 /* 헤더 */
@@ -26,7 +26,7 @@ body { min-width: 1200px;  font-family: 'segoe'; }
           background: #fff; }
 #header h1 { position: absolute; left: 30px; top: 25px; width: 249px; }
 #header h1 a { display: block; height: 50px; 
-               background: url(/images/logo_header.png) no-repeat;
+               background: url(/test1/images/logo_header.png) no-repeat;
                text-indent: 100%; white-space: nowrap; overflow: hidden; }
 /* 멤버십 */
 #membership { position: absolute; right: 50px; top: 30px; }
@@ -53,7 +53,7 @@ body { min-width: 1200px;  font-family: 'segoe'; }
           height: 700px; 
           margin-top: 100px;
           text-align: center; 
-          background: url(/images/bgSlogan.jpg) no-repeat center / cover; }
+          background: url(/test1/images/bgSlogan.jpg) no-repeat center / cover; }
 #slogan::before { content: ""; 
                 position: absolute; top: 0; left: 0;                
                 display: block;
@@ -73,7 +73,7 @@ body { min-width: 1200px;  font-family: 'segoe'; }
 #solutionWrap { background: #ebebeb; }
 #solution { display: flex; width: 1200px; margin: 0 auto;  }
 #solution .solution { width: 100%; padding: 150px 20px 30px;
-                      background: url(/images/bg_solution.png) no-repeat; }
+                      background: url(/test1/images/bg_solution.png) no-repeat; }
 #solution .hosting { background-position-y: 40px; }            
 #solution .security { background-position: center 40px; }            
 #solution .payment { background-position: right 40px; }            
@@ -123,12 +123,12 @@ body { min-width: 1200px;  font-family: 'segoe'; }
 #newsNotice ul li span { font-size: 14px; color: #7d7d7d; }
 /* 푸터 */
 #footerWrap { border-top: 1px solid #ccc;
-              background: url(/images/logo_footer.png) no-repeat 50px center;  }
+              background: url(/test1/images/logo_footer.png) no-repeat 50px center;  }
 #footer { display: flex; justify-content: space-between; padding: 20px 50px; }
 #footer .info { margin-left: 150px; }
 #footer .sns  { display: flex; }
 #footer .sns li { width: 33px; margin-left: 17px; }
 #footer .sns li a { display: block; height: 33px;
-    background: url(/images/bg_sns.png) no-repeat; 
+    background: url(/test1/images/bg_sns.png) no-repeat; 
     text-indent: 100%; white-space: nowrap; overflow: hidden; }
 #footer .sns .twitter a { background-position: right; }
