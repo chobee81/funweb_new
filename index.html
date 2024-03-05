@@ -1,45 +1,105 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ko">
-   <head>
-      <meta charset="utf-8">
-      <title>한국IT교육원</title>
-   </head>
-   <body>
-      <header>
-        <h1>기업맞춤 프론트엔드 웹디자인</h1>
-      </header>
-      <nav>
-        <h2>본교 과정 리스트</h2>
-        <a>그래픽과정</a>
-        <a>HTML과정</a>
-        <a>개발과정</a>
-      </nav>   
-      <main>
-         <section>
-            <h2>그래픽과정</h2>
-            <p>제일 처음 배우를 과정으로 그래픽프로그램을 학습합니다</p>
-            <section>
-	    <h3>피그마</h3>
-	    <p>협업용 그래픽 툴로써 현재 많이 사용하고 있는 프로그램입니다</p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>funweb</title>
+    <link rel="stylesheet" href="./style/common.css">
+</head>
+<body>
+    <header id="header">
+        <h1><a href="#">funweb</a></h1>
+        <nav id="membership">
+          <h2 class="hidden">멤버쉽네비게이션</h2>
+          <ul>
+            <li class="goLogin"><a href="#">login</a></li>
+            <li class="goJoin"><a href="#">Join</a></li>
+          </ul>
+        </nav>
+        <nav id="gnb">
+          <h2 class="hidden">펀웹 주요이용메뉴</h2>
+          <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">company</a></li>
+            <li><a href="#">solutions</a></li>
+            <li><a href="#">customer center</a></li>
+            <li><a href="#">contact us</a></li>
+          </ul>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <section id="slogan">
+            <h2 class="hidden">슬로건</h2>
+            <p>Our job is to make <br>you look good</p>
+            <a href="#">Contact Us</a>
+        </section>
+        <div id="solutionWrap">
+            <section id="solution">
+                <h2 class="hidden">웹솔루션 종류</h2>
+                <article class="hosting solution">
+                    <a href="#">
+                        <h3>Web Hosting Solution</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore </p>
+                    </a>
+                </article>
+                <article class="security solution">
+                    <a href="#">
+                        <h3>Web Security Solution</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    </a>
+                </article>
+                <article class="payment solution">
+                    <a href="#">
+                        <h3>Web payment Solution</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </a>
+                </article>
             </section>
-         </section>
-        <section>
-            <h2>HTML과정</h2>
-            <p>웹문서를 만드는 언어인 HTML을 학습합니다</p>
-         </section>
-        <section>
-            <h2>개발과정</h2>
-            <p>자바를 활용한 기본 웹개발을 학습합니다</p>
-         </section>
-      </main>
-      <footer>
-          <address>IT@mail.com</address>
-          <small>copyright all rights reserved.</small>
-      </footer>
-   </body>
+        </div>
+        <section id="customerBoard">
+            <h2 class="hidden">고객알림게시판</h2>
+            <section id="securityNews">
+                <h3><span>Security</span> News</h3>
+                <a href="#">
+                    <dl>
+                        <dt>Vivamus id ligula velit, quis euismod nisi</dt>
+                        <dd>Proin quis ante eget arcu tempus tempus porta vel ipsum. Quisque vitae nulla vel lorem cursus dignissim. Sed sit amet metus tortor. In hac habitasse platea dictumst. Aliquam erat volutpat. Aliquam massa risus,</dd>
+                    </dl>
+                </a>
+                <a href="#">
+                    <dl>
+                        <dt>Vivamus id ligula velit, quis euismod nisi</dt>
+                        <dd>Proin quis ante eget arcu tempus tempus porta vel ipsum. Quisque vitae nulla vel lorem cursus dignissim. Sed sit amet metus tortor. In hac habitasse platea dictumst. Aliquam erat volutpat. Aliquam massa risus,</dd>
+                    </dl>
+                </a>
+                <a href="#" class="more">보안뉴스더보기</a>
+            </section>
+            <section id="newsNotice">
+                <h3>News &amp; Notice</h3>
+                <ul>
+                    <li><a href="#">Vivamus id ligula velit, quis euismod nisiVivamus id ligula velit, quis euismod nisiVivamus id ligula velit, quis euismod nisi</a><span>2011.07.31</span></li>
+                    <li><a href="#">Fusce eros augue, tempus nec interdum euVivamus id ligula velit, quis euismod nisiVivamus id ligula velit, quis euismod nisi</a><span>2011.06.11</span></li>
+                    <li><a href="#">Donec eget tincidunt purusVivamus id ligula velit, quis euismod nisiVivamus id ligula velit, quis euismod nisi</a><span>2011.05.12</span></li>
+                    <li><a href="#">Nam facilisis mauris in dui suscipit volutpatVivamus id ligula velit, quis euismod nisiVivamus id ligula velit, quis euismod nisi</a><span>2011.05.08</span></li>
+                    <li><a href="#">Aenean in dui mollis leo ullamcorper fringilla Vivamus id ligula velit, quis euismod nisiVivamus id ligula velit, quis euismod nisi</a><span>2011.04.25</span></li>
+                </ul>
+                <a href="#" class="more">뉴스공지사항 더보기</a>
+            </section>
+        </section>
+    </main>
+    <hr>
+    <div id="footerWrap">
+        <footer id="footer">
+            <div class="info">
+                <small>All contents Copyright 2011 FunWeb Inc. all rights reserved</small>
+                <address>Contact mail : funweb@funwebbiz.com Tel: +82 64 123 4315 Fax +82 64 123 4321</address>
+            </div>
+            <ul class="sns">
+                <li class="facebook"><a href="#">페이스북 바로가기</a></li>
+                <li class="twitter"><a href="#">트위터 바로가기</a></li>
+            </ul>
+        </footer>
+    </div>
+</body>
 </html>
-
-
-
-
-
